@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MiCocina</string>
+    <string name="title_activity_main">MiCocina</string>
+    <string name="package_name">com.ionic.MiCocina</string>
+    <string name="fileprovider_authority">com.ionic.MiCocina.fileprovider</string>
+    <string name="custom_url_scheme">com.ionic.MiCocina</string>
+</resources>

@@ -1,0 +1,7 @@
+{
+  "appId": "com.ionic.MiCocina",
+  "appName": "MiCocina",
+  "bundledWebRuntime": false,
+  "webDir": "www",
+  "linuxAndroidStudioPath": "/snap/android-studio/69/android-studio/bin/studio.sh"
+}

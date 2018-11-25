@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="2">
+        <ion-toolbar size="2" color="white">
+          <ion-buttons slot="start">
+            <ion-back-button href="/home">
+            </ion-back-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-col>
+      <ion-col size="8">
+        <img style="height: 40px; margin-top:10px" src="src/assets/titulo.png">
+      </ion-col>
+      <ion-col size="2">
+        <img style="height: 40px;margin-top:10px" src="src/assets/logo.png">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-header>
+<ion-content padding>
+
+  <ion-item>
+    <ion-label>Categoría</ion-label>
+    <ion-select [(ngModel)]="receta.idCategoria" okText="Aceptar" cancelText="Cancelar">
+      <ion-select-option value="Entrante">Entrante</ion-select-option>
+      <ion-select-option value="Sopa">Sopa</ion-select-option>
+      <ion-select-option value="Ensalada">Ensalada</ion-select-option>
+      <ion-select-option value="Pasta">Pasta</ion-select-option>
+      <ion-select-option value="Pollo">Pollo</ion-select-option>
+      <ion-select-option value="Ternera">Ternera</ion-select-option>
+      <ion-select-option value="Cerdo">Cerdo</ion-select-option>
+      <ion-select-option value="Marisco">Marisco</ion-select-option>
+      <ion-select-option value="Pescado">Pescado</ion-select-option>
+      <ion-select-option value="Verdura">Verdura</ion-select-option>
+      <ion-select-option value="Arroz">Arroz</ion-select-option>
+      <ion-select-option value="Postre">Postre</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Nombre Receta:</ion-label>
+    <ion-input clearInput [(ngModel)]="receta.nombreReceta"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Comensales:</ion-label>
+    <ion-input clearInput [(ngModel)]="receta.numeroPersonas"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Duración:</ion-label>
+    <ion-input clearInput [(ngModel)]="receta.duracion"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Ingredientes:</ion-label>
+    <ion-textarea clearInput [(ngModel)]="receta.ingredientes"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Preparación:</ion-label>
+    <ion-textarea clearInput [(ngModel)]="receta.preparacion"></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Consejos:</ion-label>
+    <ion-textarea clearInput [(ngModel)]="receta.consejos"></ion-textarea>
+  </ion-item>
+
+  <ion-button style="margin-top:10px" color="tertiary" (click)="saveReceta(receta)">Guardar Receta</ion-button>
+</ion-content>

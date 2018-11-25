@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="2">
+        <ion-toolbar size="2" color="white">
+          <ion-buttons slot="start">
+            <ion-back-button href="/home">
+            </ion-back-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-col>
+      <ion-col size="8">
+        <img style="height: 40px; margin-top:10px" src="src/assets/titulo.png">
+      </ion-col>
+      <ion-col size="2">
+        <img style="height: 40px;margin-top:10px" src="src/assets/logo.png">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Entrante')">Entrantes</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Sopa')">Sopa</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Ensalada')">Ensalada</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Pasta')">Pasta</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Pollo')">Pollo</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Ternera')">Ternera</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Cerdo')">Cerdo</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Marisco')">Marisco</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Pescado')">Pescado</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Verdura')">Verdura</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Arroz')">Arroz</ion-text>
+    </ion-item>
+    <ion-item>
+      <ion-text (click)="mostrarRecetas('Postre')">Postre</ion-text>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
