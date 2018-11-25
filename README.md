@@ -24,7 +24,7 @@
 * Ya dentro de la receta seleccionada podemos visualizarla y si queremos modificarla también, eso nos redirigiría a la página de registro de receta pero con los datos de la receta que queremos editar, modificaríamos los datos y solo sería pulsar en guardar.
 
 <img src="img/Selección_009.png" width="320px">
-<img src="img/Selección_0010.png" width="320px">
+<img src="img/Selección_010.png" width="320px">
 
 
 
