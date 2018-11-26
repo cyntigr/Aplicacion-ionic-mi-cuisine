@@ -21,7 +21,7 @@
 
 * Aquí puedes encontrar todas las recetas con esa categoría y además podrás borrar cualquiera de ellas si en cualquier momento no quisieras hacer uso de ella, no se borra directamente, aparece una ventada que te pregunta si quieres borrar realmente esa receta o si te equivocas pulsas en cancelar y ya se cierra, después en la parte superior te indica en la categoría que te encuentras para que no te pierdas.
 <img src="img/Selección_006.png" width="320px">
-<img src="img/Selección_007.png" width="320px">
+<img src="img/Selección_012.png" width="320px">
 
 # Receta
 

@@ -30,7 +30,7 @@ export class ListaRecetasPage implements OnInit {
   }
   async deleteDialog(idReceta: number) {
     const alert = await this.alertController.create({
-      header: 'Borrar tarea',
+      header: 'Borrar receta',
       message: '¿Estas seguro de borrar la receta?',
       buttons: [
         {
